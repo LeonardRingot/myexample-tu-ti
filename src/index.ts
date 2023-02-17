@@ -3,6 +3,6 @@ import { connectToDb } from './connect';
 import { logger } from './winston.logger'
 
 app.listen(process.env.PORT, async () => {
-  logger.info('Running.');
+  logger.info('Running Port with leonard.');
   await connectToDb();
 })
